@@ -5,7 +5,9 @@ import re
 def isoer():
     try:
         print('=======================================================')
-        print("Welcome ! I'm the 'isoer' function.\nI return the ISO codes of any countries in an xlsx file\n⚠️Make sure this script in the same directory that your dataset")
+        print("Welcome! I'm the 'isoer' function.")
+        print("I return the ISO codes of any countries in an xlsx file.")
+        print("⚠️ Please ensure this script is in the same directory as your dataset.")
         print('=======================================================')
         path = input("\nWhat is the path of your dataset (xlsx or csv) : ")
         country_columns = input("What is the name of the country column : ")
